@@ -1,0 +1,11 @@
+POST /webmaster/api.svc/pox/SubmitContent?apikey=EEDECC1EA4AE341CC57365E075EBC8B6 HTTP/1.1
+Content-Type: application/xml; charset=utf-8
+Host: ssl.bing.com
+Content-Length: 413
+<SubmitContent xmlns="http://schemas.datacontract.org/2004/07/Microsoft.Bing.Webmaster.Api">
+<siteUrl>http://codvis.com</siteUrl>
+<url>http://codvis.com</url>
+<httpMessage>SFRUUC8xLjEgMjAwIE9LCkRhdGU6IFN1biwgMTAgT2N0IDIwMTcgMjM6MjY6MDcgR01UCkFjY2VwdC1SYW5nZXM6IGJ5dGVzCkNvbnRlbnQtTGVuZ3RoOiAxMwpDb25uZWN0aW9uOiBjbG9zZQpDb250ZW50LVR5cGU6IHRleHQvaHRtbAoKSGVsbG8gd29ybGQh<httpMessage>
+<structuredData><structuredData>
+<dynamicServing>0<dynamicServing>
+</SubmitContent >
