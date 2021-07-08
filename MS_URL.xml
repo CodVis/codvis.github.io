@@ -1,0 +1,11 @@
+POST /webmaster/api.svc/pox/SubmitUrlBatch?apikey=EEDECC1EA4AE341CC57365E075EBC8B6 HTTP/1.1
+Content-Type: application/xml; charset=utf-8
+Host: ssl.bing.com
+<SubmitUrlBatch xmlns="http://schemas.datacontract.org/2004/07/Microsoft.Bing.Webmaster.Api">
+<siteUrl>http://example.com</siteUrl>
+<urlList>
+<string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">http://codvis.com/</string>
+<string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">http://codvis.com/community</string>
+<string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">http://codvis.com/contact-us</string> 
+<urlList>
+</SubmitUrlBatch>
