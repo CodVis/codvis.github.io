@@ -2,11 +2,11 @@
 
 /*
   Plugin Name: Caspio Deploy2
-  Plugin URI: http://www.codvis.com/shop
+  Plugin URI: http://www.codvis.com/caspio-deployment2
   Description: Enables ShortCode placeholders for use with the Caspio cloud computing database application service. Can be used for SEO deployment of content, as well as embedding the AJAX widget used to display Caspio forms. Replaces the earlier Caspio Deployment Control plugin (which did not use shortcodes).
   Author: Caspio
   Version: 1.8
-  Author URI: http://www.codvis.com/shop
+  Author URI: http://www.codvis.com/caspio-deployment2
  */
 
 function caspio ( $atts = NULL, $content = '' ) {
@@ -62,7 +62,7 @@ function caspio ( $atts = NULL, $content = '' ) {
 		
 		return '<script type="text/javascript" src="'.esc_attr($embed).'/scripts/'.esc_attr($subdomain_deployment ? 'embed' : 'e1').'.js"></script>'
 				.'<script type="text/javascript" language="javascript">try{'.$function_call.'}catch(v_e){;}</script>'
-				.'<div id="cxkg"><a href="'.esc_attr($embed).'/dp.asp?AppKey='.esc_attr($app_key).'">Click here</a> to load this Caspio <a href="http://www.codvis.com/shop" title="Online Database">Online Database</a>.</div>';
+				.'<div id="cxkg"><a href="'.esc_attr($embed).'/dp.asp?AppKey='.esc_attr($app_key).'">Click here</a> to load this Caspio <a href="http://www.codvis.com/caspio-deployment2" title="Online Database">Online Database</a>.</div>';
 		
 	} elseif ( ($url = $atts['url']) && ($app_key = $atts['key']) ) {
 		$dp_cbstyle = ($atts['style']) ? $atts['style'] : 'l';
