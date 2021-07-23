@@ -27,10 +27,10 @@
     <body>
         <!-- header -->
         <header class="header-area" >            
-            <div id="header-sticky" class="menu-area">
+            <div id="header-sticky"  class="menu-area" style="background: #190a32;">
                 <div class="container">
                     <div class="second-menu">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center" >
                             <div class="">
                                 <div class="logo">
                                     <a href="index.html" ><span><img src="img/codvis/codvis_logo.png" alt=""><span> &nbsp;  &nbsp;</span><img src="img/codvis/codvis_title1.png" alt=""></span></a>
@@ -44,7 +44,7 @@
                                             <li class="has-sub"><a href="#parallax">Home</a></li>
                                             <li><a href="#features">Features</a></li>
                                             <li><a href="#about">About Us</a></li>
-                                            <li><a href="#team">Our Team</a></li>
+                                            <!-- <li><a href="#team">Our Team</a></li> -->
                                             <li><a href="#contact">Contact</a></li>                                            
                                         </ul>
                                     </nav>
@@ -57,26 +57,38 @@
         </header>
         <!-- header-end -->
 
+        <!--  -->
+
         
         <!-- main-area -->
         <main>
+            <header id="parallax"class="masthead" style="background-image: url(home-bg.png);">
+                <div class="container position-relative px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-md-10 col-lg-8 col-xl-7">
+                            <div class="site-heading">
+                                <h1 style="color: beige;">CodVis</h1>
+                                <span class="subheading" style="font-weight: 900;">WE MAKE DATA UNDERSTANDABLE !!!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
             <!-- slider-area -->
-            <section id="parallax" class="slider-area slider-bg2 second-slider-bg d-flex fix" style="background-image: url(img/bg/pink-header-bg.png); background-position:right 0; background-repeat: no-repeat; background-size: 65%;">
+            <!-- <section id="parallax" class="slider-area slider-bg2 second-slider-bg d-flex fix" style="background-image: url(img/bg/pink-header-bg.png); background-position:right 0; background-repeat: no-repeat; background-size: 65%;">
      			 <div class="slider-shape ss-eight layer" data-depth="0.50"></div><div class="container">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="slider-content second-slider-content left-center">
-                                    <h2 data-animation="fadeInUp" data-delay=".4s">We make data <br>UNDERSTANDABLE !!!</h2>
-                                    <br>
-                                    <p data-animation="fadeInUp" data-delay=".6s" style="font-size:large"> CodVis is a cloud-based, data analytics, and visualization platform. An organization with a mission to build  meaningful future through innovation, technology, and collective knowledge.
-                                    Real-time data visualization related to future decision-making.</p>    
+                                    <h2 data-animation="fadeInUp" data-delay=".4s">We make data <br>UNDERSTANDABLE !!!</h2>   
                         </div>
                         <div class="col-lg-6 right-center">
                             <img src="img/codvis/dv.jpg" alt="Data Representation">
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- slider-area-end -->
 
 
@@ -138,8 +150,7 @@
                   <section id="" class="app-work pt-70 pb-100 p-relative" style="background-image: url(img/shape/header-sape4.png); background-position: right center; background-size: auto;background-repeat: no-repeat;">            
                     <div class="container">
                         <div class="row align-items-center ">
-                           
-                            <div class="col-xl-12"> <!-- to activate make from 12 to 6 -- Image beside how app works  -->
+                            <div class="col-xl-12">
                                 <div class="choose-wrap">
                                     <div class="section-title w-title left-align mb-15">
                                         <h2>How does This Web-App Work?</h2>
@@ -171,9 +182,6 @@
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-xl-6"> <!-- this part is not activated -- Image beside how app works  -->
-                                <img src="" alt="" class="img">
-                            </div>
                         </div>
                     </div>
                 </section>
@@ -181,14 +189,14 @@
 
 
 			<!-- choose-area -->
-            <section id="about" class="choose-area pt-100 pb-60 p-relative" style="background-image: url(img/shape/header-sape3.png); background-position: right center; background-size: auto;background-repeat: no-repeat;">
-                <div class="chosse-img" style="background-image:url(img/bg/easy-m-bg.png)"></div>
+            <section id="about" class="choose-area pt-100 pb-60 p-relative" style=" background-position: right center; background-size: auto;background-repeat: no-repeat;">
+                <div class="chosse-img" ></div>
                 <div class="chosse-img2"><img src="" alt=""/></div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-5">
+                        <div class="col-xl-5 ">
                         </div>
-                        <div class="col-xl-7">
+                        <div class="col-xl-11">
                             <div class="choose-wrap">
                                 <div class="section-title w-title left-align mb-25">
                                     <h2>ABOUT US</h2>
@@ -473,7 +481,7 @@
 						<div class="col-lg-6">
                             <div class="section-title mb-40">                              
                                 <h2>Get In Touch</h2>
-                                  <p>Quisque posuere mollis ipsum et molestie. Fusce cursus, risus vel scelerisque porttitor, leo quam vulputate nibh, sit amet blandit erat magna.</p>
+                                  <p>We would love to here out your ideas and opinions...</p>
                             </div>
 						<form name="google-sheet" method="POST" >
 							<div class="row">
@@ -522,7 +530,7 @@
                         <div class="col-xl-3 col-lg-3 col-sm-6">
                             <div class="footer-widget mb-30">
                                 <div class="logo mt-15 mb-15">
-                                    <a href="#" ><img src="img/codvis/codvis_title.png" alt="codvis"></a>
+                                    <a href="#" ><img src="img/codvis/codvis_title1.png" alt="codvis"></a>
                                 </div>
                                 <br>
                                 <br>
@@ -530,7 +538,7 @@
                                 <div class="footer-social">
                                     <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href=" https://www.linkedin.com/company/codvis"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -601,7 +609,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="copyright-text">
-                                <p>&copy;CODVIS - Copyrights reserved 2021</p>
+                                <p>&copy; CODVIS - Copyrights reserved 2021</p>
                             </div>
                         </div>
                     </div>
