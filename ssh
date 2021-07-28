@@ -1,8 +1,0 @@
-cd $HOME/.ssh
-touch config
-chmod 600 config
-cat > $Home/.ssh/config << "EOF"
-Host git-codecommit.*.amazonaws.com
- User APKAVUC4ZXTKEEXU5L5R
- IdentityFile ~/.ssh/codecommit_rsa
-EOF
